@@ -60,7 +60,7 @@ Utilización de SQLite3 como base de datos por defecto de Django debido a su sim
 Configuración adicional
 Para personalizar el estilo de las tareas importantes, modificar los estilos CSS en /task/static/estilos.css.
 
-## Información adicional sobre la aplicación Task
+## Información adicional sobre la aplicación TaskForge
 
 ### Vistas y modelos
 
@@ -69,7 +69,7 @@ En nuestra aplicación Task, las vistas están organizadas siguiendo el patrón 
 - `tasks/urls.py`: Contiene las URL y vistas relacionadas con las tareas.
 
 #### Interacción entre las Vistas y los Modelos:
-Las vistas interactúan con los modelos a través de consultas a la base de datos utilizando el ORM de Django. Por ejemplo, en la vista de detalle de una tarea (`task_detail_view`), se accede a los datos del modelo `Task` para mostrar la información detallada de una tarea específica.
+Las vistas interactúan con los modelos a través de consultas a la base de datos utilizando el ORM de Django. Por ejemplo, en la vista de detalle de una tarea (`task_detail`), se accede a los datos del modelo `Task` para mostrar la información detallada de una tarea específica.
 
 ### Estructura de la Base de Datos
 
