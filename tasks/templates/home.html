@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+
+{% block content%}
+
+<main class="container py-5 color-personalizado">
+<section class="card card-body color-personalizado">
+    <h1 style="font-weight: bold;" class ="display-1 text-center" >Django TaskForge</h1>
+    <p>
+        <h1 style="margin-bottom: 20px;">organiza tu dia con Django TaskForge</h1> 
+        <p>
+        Con <strong style="background-color: rgb(158, 158, 244);;"> Django TaskForge </strong>, simplifica la gestión de tus tareas diarias 
+        de manera inteligente y eficiente. Crea listas de tareas personalizadas, asigna
+         niveles de prioridad y accede rápidamente a tus actividades pendientes y 
+         completadas con su fechas de completado.
+         </p>
+
+         <h4 style="margin-bottom: 20px; ">Características </h4>
+
+         <ul>
+
+            <li>Priorización Simplificada: Asigna niveles de importancia a tus tareas para concentrarte en lo más relevante.</li>
+            <li>Listas Organizadas: Mantén tus tareas pendientes y completadas en secciones separadas para una mejor visualización.</li>
+            <li>Accesibilidad Total: Desde cualquier dispositivo, accede a tu lista de tareas en cualquier momento y lugar.</li>
+            <li>Intuitivo y Fácil de Usar: Una interfaz amigable que te permite gestionar tus tareas con facilidad.</li>
+
+         </ul>
+
+         Django TaskForge está diseñado para ayudarte a aprovechar al máximo tu tiempo, eliminando el 
+         estrés de la organización diaria y permitiéndote enfocarte en lo que es importante.<strong> ¡Optimiza tu 
+         productividad y comienza hoy mismo con Django TaskForge!" </strong>
+
+
+
+    </p>
+    <div class="text-center">
+    <a class="btn btn-secondary" href="/signin/">
+        signin
+    </a>
+    <a class="btn btn-dark" href="/signup/">
+        sigup
+    </a>
+    </div>
+</section>
+</main>
+{% endblock%}
